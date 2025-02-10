@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite uma string:");
+        string texto = Console.ReadLine();
+
+        string resultadoString = (string.IsNullOrEmpty(texto)) ? "A string está vazia" : "A string não está vazia";
+        Console.WriteLine(resultadoString);
+    }
+}
