@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        object objeto = null;  // Podemos alterar para qualquer outro valor (exemplo: 10 ou "Texto")
+
+        string resultadoObjeto = (objeto == null) ? "A variável é nula" : "A variável não é nula";
+        Console.WriteLine(resultadoObjeto);
+    }
+}
