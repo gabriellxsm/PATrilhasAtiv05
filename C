@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<int> lista = new List<int> { 1, 2, 3, 4, 5 };  // Lista com elementos
+
+        string resultadoLista = (lista.Count == 0) ? "A lista está vazia" : "A lista não está vazia, ela contém: " + string.Join(", ", lista);
+        Console.WriteLine(resultadoLista);
+    }
+}
